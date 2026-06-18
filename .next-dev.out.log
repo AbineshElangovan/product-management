@@ -1,0 +1,31 @@
+
+> product-manager@0.1.0 dev
+> next dev --port 3000
+
+▲ Next.js 16.2.7 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://169.254.218.147:3000
+✓ Ready in 513ms
+Creating turbopack project {
+  dir: 'C:\\Users\\eabin\\OneDrive\\Desktop\\next\\product-manager',
+  testMode: true
+}
+
+○ Compiling /_error ...
+ GET / 500 in 10.9s (next.js: 8.3s, application-code: 2.6s)
+ GET / 200 in 1602ms (next.js: 30ms, application-code: 1571ms)
+ GET /product/1 404 in 2.5s (next.js: 1653ms, application-code: 806ms)
+ GET /product/1 404 in 210ms (next.js: 19ms, application-code: 191ms)
+ GET / 200 in 184ms (next.js: 27ms, application-code: 157ms)
+ GET /product/2 404 in 423ms (next.js: 126ms, application-code: 296ms)
+ GET /product/2 404 in 501ms (next.js: 223ms, application-code: 278ms)
+ GET / 500 in 7.8s (next.js: 843ms, application-code: 7.0s)
+ GET / 500 in 1676ms (next.js: 1018ms, application-code: 658ms)
+ GET / 200 in 658ms (next.js: 60ms, application-code: 598ms)
+ GET / 200 in 1568ms (next.js: 76ms, application-code: 1492ms)
+ GET /product/1 404 in 1527ms (next.js: 139ms, application-code: 1388ms)
+ GET /product/1 404 in 705ms (next.js: 268ms, application-code: 437ms)
+ GET / 500 in 30.9s (next.js: 25.7s, application-code: 5.2s)
+ GET / 200 in 3.8s (next.js: 303ms, application-code: 3.5s)
+ GET / 200 in 114ms (next.js: 64ms, application-code: 50ms)
+[?25h

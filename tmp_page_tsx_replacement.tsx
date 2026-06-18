@@ -1,5 +1,3 @@
-﻿//home page->producL page
-
 "use client"
 import { useEffect, useMemo, useState } from "react"
 import { useProductStore } from "@/lib/store/product-store"
@@ -16,7 +14,8 @@ export default function Home() {
 
   useEffect(() => {
     setHasHydrated(true)
-  }, [])
+    console.log("Products in store:", products)
+  },)
 
   const categorySections = useMemo(() => {
     const groups: Record<string, typeof products> = {}
@@ -46,8 +45,8 @@ export default function Home() {
         </div>
 
         <div className="flex flex-wrap gap-2">
-          <Link href="/products"><Button variant="outline">View All</Button></Link>
-          <Link href="/products/add"><Button >Add Product</Button></Link>
+          <Link href="/products"><Button variant="outline">Shop All </Button></Link>
+          <Link href="/products/add"><Button>Add Product</Button></Link>
         </div>
       </div>
 
@@ -62,6 +61,7 @@ export default function Home() {
                 </p>
               </div>
               <Link href="/products" className="text-sm font-medium text-slate-900 hover:text-slate-700">
+                View all {section.category} products →
               </Link>
             </div>
 
