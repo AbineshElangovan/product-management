@@ -1,33 +1,35 @@
-# dependencies
+# Next.js build and cache output
+.next
+.next/
+.next/*
+out
+out/
+build
+dist
+
+# Dependencies
+node_modules
 node_modules/
+node_modules/*
 .pnp
 .pnp.js
 
-# testing
+# Testing and coverage
+coverage
 coverage/
 
-# next.js
-.next/
-out/
-
-# production
-build/
-dist/
-
-# logs & temporary files
+# Logs & temporary files
 *.log
 .next-dev.err.log
 .next-dev.out.log
 tmp_page_tsx_replacement.tsx
 
-# misc
+# OS and environment
 .DS_Store
 *.pem
-
-# local env files
 .env*.local
 .env
 
-# typescript
+# Typescript
 *.tsbuildinfo
 next-env.d.ts
